@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #d9bba5; /* Light gray background */
+    border-left:groove;
+    
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #6f6693; /* White background */
+    border-radius: 50px;
+    box-shadow: 0 12px 5px rgba(14, 11, 11, 0.1);
+}
+
+.input-section label {
+    font-weight: bolder;
+    margin-right: 5px;
+}
+
+.input-section input[type="number"],
+.input-section input[type="date"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.input-section button {
+    padding: 5px 20px;
+    background-color: rgb(149, 20, 20);
+    color: rgb(240, 230, 230);
+    border: none;
+    border-radius:24px;
+    cursor: pointer;
+}
+
+.expenses-list {
+    margin: 20px;
+    background-color: #b4d2bb; /* White background */
+    border-radius:20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 10px solid #3ac294;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(101, 185, 166);
+    color: rgb(12, 1, 1);
+}
+
+tfoot td {
+    font-weight:bolder;
+}
+
+.delete-btn {
+    padding: 5px 10px;
+    background-color: rgb(238, 9, 9);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
